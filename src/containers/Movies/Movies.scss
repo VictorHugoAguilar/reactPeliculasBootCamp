@@ -1,1 +1,6 @@
-
+@import '../../colors.scss';
+.movies {
+    background-color: $darkest;
+    display: grid;
+    grid-template: repeat(5, 1fr)/repeat(4, 1fr);
+}
