@@ -6,7 +6,7 @@ const Movie = ({movie}) => {
 
     return (
         <div className="movie">
-            <h4>{movie.title}</h4>
+            <h2>{movie.title}</h2>
             <img src={"http://image.tmdb.org/t/p/w200"+movie.poster_path} alt={movie.title} />
             <p>{movie.vote_average}</p>
 
